@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlists</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/default.css') }}">
+</head>
+<body>
+    <!-- <div id="welcome">
+    <h1>Your Playlists:</h1>
+    {% for x in content %}
+        <p>{{ x['name'] }}</p>
+    {% endfor %}
+    </div> -->
+
+    <form action="/playlist-tracks">
+        <div id="playlists">
+            <label for="playlist_names" id="playlist_label">Playlists:</label>
+            <select id="playlist_names" name="playlist_names">
+                {% for x in content %}
+                    <option value={{ x['id'] }}>{{ x['name'] }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" formenctype="form-data">Shuffle</button>
+        </div>
+    </form>
+</body>
+</html>
