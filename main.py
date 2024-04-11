@@ -125,6 +125,8 @@ def queue_tracks(tracks):
         response = requests.post(API_BASE_URL + 'me/player/queue?uri=' + urllib.parse.quote(uri), headers=headers)
     #     print (response)
 
+    response2 = requests.post(API_BASE_URL + 'me/player/next', headers=headers)
+
     return render_template("shuffled.html")
     
 

@@ -14,6 +14,7 @@ Designed as a solution to the user pain-point of excessive reptitiveness in the 
 ### Prerequisites
 - Docker [installed & running]: https://docs.docker.com/get-docker/
 - A Spotify Account: https://www.spotify.com/us/signup
+- Spotify [actively running on any device]: https://open.spotify.com/
 
 ### Instructions
 1. In your local machine's terminal, build the image by running the following Docker command:
