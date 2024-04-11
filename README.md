@@ -18,15 +18,15 @@ Designed as a solution to the user pain-point of excessive reptitiveness in the 
 ### Instructions
 1. In your local machine's terminal, build the image by running the following Docker command:
 
-`docker build https://github.com/ericgadbois/Spotify-Shuffler.git -t shuffler`
+```docker build https://github.com/ericgadbois/Spotify-Shuffler.git -t shuffler```
 
 2. Run the image on your local machine using the following command:
 
-`docker run -p 5000:5000 shuffler`
+```docker run -p 5000:5000 shuffler```
 
 3. In a web browser, navigate to:
 
-`http://localhost:5000`
+```http://localhost:5000```
 
 4. You should see this screen:
 
