@@ -1,5 +1,5 @@
 # Spotify Shuffler
-**Technologies:** *Python, HTML, CSS, Docker, Spotify Web API, OAuth 2.0*
+**Technologies:** *OAuth 2.0, Spotify Web API, Flask, Docker, Python, HTML, CSS*
 ## Purely randomized playlist ordering!
 ### Description
 Do you ever feel frustrated about the performance of Spotify's shuffle feature? Tired of being fed the same 5 songs out of a playlist that contains more than 1000?
